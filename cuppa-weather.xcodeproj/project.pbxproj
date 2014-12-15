@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7ADE04E21A3F67E4007741B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE04E11A3F67E4007741B1 /* main.m */; };
+		7ADE04E51A3F67E4007741B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE04E41A3F67E4007741B1 /* AppDelegate.m */; };
+		7ADE04E81A3F67E4007741B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE04E71A3F67E4007741B1 /* ViewController.m */; };
+		7ADE04EB1A3F67E4007741B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADE04E91A3F67E4007741B1 /* Main.storyboard */; };
+		7ADE04ED1A3F67E4007741B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ADE04EC1A3F67E4007741B1 /* Images.xcassets */; };
+		7ADE04F01A3F67E4007741B1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ADE04EE1A3F67E4007741B1 /* LaunchScreen.xib */; };
+		7ADE04FC1A3F67E4007741B1 /* cuppa_weatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE04FB1A3F67E4007741B1 /* cuppa_weatherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ADE04F61A3F67E4007741B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7ADE04D41A3F67E4007741B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ADE04DB1A3F67E4007741B1;
+			remoteInfo = "cuppa-weather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7ADE04DC1A3F67E4007741B1 /* cuppa-weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cuppa-weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADE04E01A3F67E4007741B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADE04E11A3F67E4007741B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7ADE04E31A3F67E4007741B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7ADE04E41A3F67E4007741B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7ADE04E61A3F67E4007741B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7ADE04E71A3F67E4007741B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7ADE04EA1A3F67E4007741B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7ADE04EC1A3F67E4007741B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7ADE04EF1A3F67E4007741B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7ADE04F51A3F67E4007741B1 /* cuppa-weatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cuppa-weatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ADE04FA1A3F67E4007741B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ADE04FB1A3F67E4007741B1 /* cuppa_weatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cuppa_weatherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7ADE04D91A3F67E4007741B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADE04F21A3F67E4007741B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ADE04D31A3F67E4007741B1 = {
+			isa = PBXGroup;
+			children = (
+				7ADE04DE1A3F67E4007741B1 /* cuppa-weather */,
+				7ADE04F81A3F67E4007741B1 /* cuppa-weatherTests */,
+				7ADE04DD1A3F67E4007741B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7ADE04DD1A3F67E4007741B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ADE04DC1A3F67E4007741B1 /* cuppa-weather.app */,
+				7ADE04F51A3F67E4007741B1 /* cuppa-weatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7ADE04DE1A3F67E4007741B1 /* cuppa-weather */ = {
+			isa = PBXGroup;
+			children = (
+				7ADE04E31A3F67E4007741B1 /* AppDelegate.h */,
+				7ADE04E41A3F67E4007741B1 /* AppDelegate.m */,
+				7ADE04E61A3F67E4007741B1 /* ViewController.h */,
+				7ADE04E71A3F67E4007741B1 /* ViewController.m */,
+				7ADE04E91A3F67E4007741B1 /* Main.storyboard */,
+				7ADE04EC1A3F67E4007741B1 /* Images.xcassets */,
+				7ADE04EE1A3F67E4007741B1 /* LaunchScreen.xib */,
+				7ADE04DF1A3F67E4007741B1 /* Supporting Files */,
+			);
+			path = "cuppa-weather";
+			sourceTree = "<group>";
+		};
+		7ADE04DF1A3F67E4007741B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ADE04E01A3F67E4007741B1 /* Info.plist */,
+				7ADE04E11A3F67E4007741B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7ADE04F81A3F67E4007741B1 /* cuppa-weatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				7ADE04FB1A3F67E4007741B1 /* cuppa_weatherTests.m */,
+				7ADE04F91A3F67E4007741B1 /* Supporting Files */,
+			);
+			path = "cuppa-weatherTests";
+			sourceTree = "<group>";
+		};
+		7ADE04F91A3F67E4007741B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ADE04FA1A3F67E4007741B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7ADE04DB1A3F67E4007741B1 /* cuppa-weather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADE04FF1A3F67E4007741B1 /* Build configuration list for PBXNativeTarget "cuppa-weather" */;
+			buildPhases = (
+				7ADE04D81A3F67E4007741B1 /* Sources */,
+				7ADE04D91A3F67E4007741B1 /* Frameworks */,
+				7ADE04DA1A3F67E4007741B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cuppa-weather";
+			productName = "cuppa-weather";
+			productReference = 7ADE04DC1A3F67E4007741B1 /* cuppa-weather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7ADE04F41A3F67E4007741B1 /* cuppa-weatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7ADE05021A3F67E4007741B1 /* Build configuration list for PBXNativeTarget "cuppa-weatherTests" */;
+			buildPhases = (
+				7ADE04F11A3F67E4007741B1 /* Sources */,
+				7ADE04F21A3F67E4007741B1 /* Frameworks */,
+				7ADE04F31A3F67E4007741B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADE04F71A3F67E4007741B1 /* PBXTargetDependency */,
+			);
+			name = "cuppa-weatherTests";
+			productName = "cuppa-weatherTests";
+			productReference = 7ADE04F51A3F67E4007741B1 /* cuppa-weatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7ADE04D41A3F67E4007741B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = saifuddin;
+				TargetAttributes = {
+					7ADE04DB1A3F67E4007741B1 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = KKC638679A;
+					};
+					7ADE04F41A3F67E4007741B1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7ADE04DB1A3F67E4007741B1;
+					};
+				};
+			};
+			buildConfigurationList = 7ADE04D71A3F67E4007741B1 /* Build configuration list for PBXProject "cuppa-weather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7ADE04D31A3F67E4007741B1;
+			productRefGroup = 7ADE04DD1A3F67E4007741B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7ADE04DB1A3F67E4007741B1 /* cuppa-weather */,
+				7ADE04F41A3F67E4007741B1 /* cuppa-weatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7ADE04DA1A3F67E4007741B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADE04EB1A3F67E4007741B1 /* Main.storyboard in Resources */,
+				7ADE04F01A3F67E4007741B1 /* LaunchScreen.xib in Resources */,
+				7ADE04ED1A3F67E4007741B1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADE04F31A3F67E4007741B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7ADE04D81A3F67E4007741B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADE04E81A3F67E4007741B1 /* ViewController.m in Sources */,
+				7ADE04E51A3F67E4007741B1 /* AppDelegate.m in Sources */,
+				7ADE04E21A3F67E4007741B1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ADE04F11A3F67E4007741B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ADE04FC1A3F67E4007741B1 /* cuppa_weatherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ADE04F71A3F67E4007741B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7ADE04DB1A3F67E4007741B1 /* cuppa-weather */;
+			targetProxy = 7ADE04F61A3F67E4007741B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7ADE04E91A3F67E4007741B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADE04EA1A3F67E4007741B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7ADE04EE1A3F67E4007741B1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7ADE04EF1A3F67E4007741B1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7ADE04FD1A3F67E4007741B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7ADE04FE1A3F67E4007741B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7ADE05001A3F67E4007741B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "cuppa-weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7ADE05011A3F67E4007741B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "cuppa-weather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		7ADE05031A3F67E4007741B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cuppa-weatherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cuppa-weather.app/cuppa-weather";
+			};
+			name = Debug;
+		};
+		7ADE05041A3F67E4007741B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cuppa-weatherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cuppa-weather.app/cuppa-weather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7ADE04D71A3F67E4007741B1 /* Build configuration list for PBXProject "cuppa-weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADE04FD1A3F67E4007741B1 /* Debug */,
+				7ADE04FE1A3F67E4007741B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADE04FF1A3F67E4007741B1 /* Build configuration list for PBXNativeTarget "cuppa-weather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADE05001A3F67E4007741B1 /* Debug */,
+				7ADE05011A3F67E4007741B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7ADE05021A3F67E4007741B1 /* Build configuration list for PBXNativeTarget "cuppa-weatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ADE05031A3F67E4007741B1 /* Debug */,
+				7ADE05041A3F67E4007741B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7ADE04D41A3F67E4007741B1 /* Project object */;
+}
